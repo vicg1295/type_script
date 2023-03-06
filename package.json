@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "dev": "node app.js"
+    "dev": "tsc && node app.js"
   },
   "repository": {
     "type": "git",
