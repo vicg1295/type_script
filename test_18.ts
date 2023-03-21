@@ -3,19 +3,21 @@ enum QuestionStatus {
     Draft = 'draft',
     Deleted = 'deleted'
 }
+interface question  {
+    question: string;
+    answer: string;
+    tags: string[];
+    likes: number;
+    status: QuestionStatus;
+}
 
 async function getFaqs(req:
-                           { topicId: number,
+                           {
+                               topicId: number,
                                status: QuestionStatus
                            }):
     Promise<
-    {
-        question: string;
-        answer: string;
-        tags: string[];
-        likes: number;
-        status: QuestionStatus;
-    }[] > {
+        question[]> {
     const res = await fetch('/faqs', {
         method: 'POST',
         body: JSON.stringify(req)
