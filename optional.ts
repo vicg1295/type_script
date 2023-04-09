@@ -30,5 +30,9 @@ interface UserPro{
 }
 
 function testPassword (user: UserPro){
-const t = user.password?.type
+const t = user.password?.type //user.password!.type
+}
+
+function test (param?: string){
+    const t = param ?? multiplay(5)
 }

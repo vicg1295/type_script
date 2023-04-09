@@ -29,5 +29,5 @@ type User_1 = {
 const use_1: User_1 = {
     name: 'as',
 //     age: 33
-// }
+}
 console.log(user);
