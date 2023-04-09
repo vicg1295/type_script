@@ -22,12 +22,12 @@ type User_1 = {
 
 }
 
-type User_1  = {
-    age: number
-}
+// type User_1  = {
+//     age: number
+// }
 
 const use_1: User_1 = {
     name: 'as',
-    age: 33
-}
+//     age: 33
+// }
 console.log(user);
