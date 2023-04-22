@@ -8,7 +8,7 @@ interface UserWithRole extends User{
     roleId: number
 }
 
-let user: UserWithRole = {
+let user_0: UserWithRole = {
     name: 'asd',
     age: 33,
     skills: ['1', '2'],
