@@ -1,6 +1,6 @@
 type PaymantStatys = 'new' | 'payd';
 
-class Payment {
+class Payment0 {
     id: number;
     status: PaymantStatys = 'new';
 
@@ -13,7 +13,7 @@ class Payment {
     }
 }
 
-class PersistendPaymant extends Payment {
+class PersistendPaymant extends Payment0 {
     databaseId: number;
     payAt: Date;
     constructor() {
