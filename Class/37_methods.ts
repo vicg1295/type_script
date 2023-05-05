@@ -4,7 +4,7 @@ enum PaymentStatus {
     Reversed,
 }
 
-class Payment {
+class Payment2 {
     id: number;
     status: PaymentStatus;
     createdAt: Date;
@@ -29,7 +29,7 @@ class Payment {
     }
 }
 
-const payment = new Payment(1)
+const payment = new Payment2(1)
 
 payment.unholdPayment()
 console.log(payment);
