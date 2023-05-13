@@ -4,7 +4,7 @@ interface ILogger {
     error(...args): void
 }
 
-class Logger implements ILogger {
+class Logger_0 implements ILogger {
     async error(...args): Promise<void> {
         console.log(...args);
     }
