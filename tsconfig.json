@@ -112,7 +112,7 @@
 //  "files": [
 //    "test.ts"
 //  ],
-  "include": ["confit_ts/*"],
+  "include": ["Generics/*"],
 //  "exclude": ["class/4*", "class/3*","class/2*"],
 //  "extends": "",
 }
