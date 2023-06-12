@@ -6,7 +6,8 @@ async function test(){
     })
 }
 
-const check:Record<string, boolean> = {
+const check:Record<string, boolean> = { //string-ключ boolean-значение
     drive: true,
     kpp: false,
 }
+
