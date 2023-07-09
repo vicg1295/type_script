@@ -1,9 +1,9 @@
-function logMiddlewere<T>(data: T): T{
+function logMiddlewere1<T>(data: T): T{
     console.log(data);
     return data
 }
 
-const res = logMiddlewere<string>('10')
+const res = logMiddlewere1<string>('10')
 
 function splitHouse<T>(data: Array<T>): Array<T>{
     const L = data.length/2
