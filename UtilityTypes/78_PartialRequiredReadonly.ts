@@ -8,9 +8,11 @@ export interface User {
 type partial = Partial<User>
 const p: partial = {}
 
-//required - все типы обезательными
+//required - все типы обязательными
 export type required = Required<User>
 //readonly - только для чтения
 export type readonly = Readonly<User>
+
+
 
 

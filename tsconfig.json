@@ -112,7 +112,7 @@
 //  "files": [
 //    "test.ts"
 //  ],
-  "include": ["UtilityTypes/*"],
+  "include": ["Paterns/Decorator/*"],
 //  "exclude": ["class/4*", "class/3*","class/2*"],
 //  "extends": "",
 }
