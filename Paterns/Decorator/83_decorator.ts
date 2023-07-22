@@ -18,5 +18,13 @@ function nullUser(obj: IUserService) {
     return obj
 }
 
+function logUsers(obj: IUserService) {
+    //....
+    console.log(obj.users);
+    return obj
+}
+
+
+
 console.log(new UserService().getUsersInDatabase())
 console.log(nullUser (new UserService()).getUsersInDatabase())
